@@ -1,0 +1,176 @@
+@media screen and (max-width: 576px) {
+  .section {
+    display: grid;
+    grid-template-columns: 1fr;
+    background-color: #ECECEC; }
+  .section .section-title {
+    display: grid;
+    grid-template-columns: 1fr;
+    align-self: center;
+    margin: 12%; }
+  .section .livingroom {
+    width: 100%; }
+  .sectiontext {
+    display: grid;
+    grid-template-columns: 1fr;
+    align-items: center;
+    text-align: justify;
+    font-size: 16px;
+    padding: 5%; }
+  .sectiontwo {
+    display: grid;
+    grid-template-columns: 1fr;
+    background-color: #ECECEC; }
+  .sectiontwo .section-title {
+    display: grid;
+    grid-template-columns: 1fr;
+    align-self: center;
+    margin: 12%; }
+  .sectiontwo .bedroom {
+    width: 100%; }
+  .sectiontwo .sectiontext {
+    display: grid;
+    grid-template-columns: 1fr;
+    align-items: center;
+    text-align: justify;
+    font-size: 16px;
+    padding: 5%; }
+  .sectionthree {
+    display: grid;
+    grid-template-columns: 1fr;
+    background-color: #ECECEC; }
+  .sectionthree .section-title {
+    display: grid;
+    grid-template-columns: 1fr;
+    align-self: center;
+    margin: 12%; }
+  .sectionthree .kitchen {
+    width: 100%; }
+  .sectionthree .sectiontext {
+    display: grid;
+    grid-template-columns: 1fr;
+    align-items: center;
+    text-align: justify;
+    font-size: 16px;
+    padding: 5%; } }
+
+@media screen and (min-width: 576px) and (max-width: 992px) {
+  .section {
+    display: grid;
+    grid-template-columns: 1fr;
+    background-color: #ECECEC; }
+  .section .section-title {
+    display: grid;
+    grid-template-columns: 1fr;
+    align-self: center;
+    margin: 12%; }
+  .section .livingroom {
+    width: 100%; }
+  .sectiontext {
+    display: grid;
+    grid-template-columns: 1fr;
+    align-items: center;
+    text-align: justify;
+    font-size: 16px;
+    padding: 5%; }
+  .sectiontwo {
+    display: grid;
+    grid-template-columns: 1fr;
+    background-color: #ECECEC; }
+  .sectiontwo .section-title {
+    display: grid;
+    grid-template-columns: 1fr;
+    align-self: center;
+    margin: 12%; }
+  .sectiontwo .bedroom {
+    width: 100%; }
+  .sectiontwo .sectiontext {
+    display: grid;
+    grid-template-columns: 1fr;
+    align-items: center;
+    text-align: justify;
+    font-size: 16px;
+    padding: 5%; }
+  .sectionthree {
+    display: grid;
+    grid-template-columns: 1fr;
+    background-color: #ECECEC; }
+  .sectionthree .section-title {
+    display: grid;
+    grid-template-columns: 1fr;
+    align-self: center;
+    margin: 12%; }
+  .sectionthree .kitchen {
+    width: 100%; }
+  .sectionthree .sectiontext {
+    display: grid;
+    grid-template-columns: 1fr;
+    align-items: center;
+    text-align: justify;
+    font-size: 16px;
+    padding: 5%; } }
+
+@media screen and (min-width: 992px) {
+  .section {
+    display: flex;
+    flex-direction: row;
+    background-color: #ECECEC; }
+  .section .section-title {
+    flex: 1 1 auto;
+    width: 40%;
+    align-self: center;
+    margin: 12%; }
+  .section .livingroom {
+    flex: 1 1 auto;
+    width: 60%; }
+  .sectiontext {
+    display: flex;
+    flex-direction: column;
+    flex: 1 1 auto;
+    width: 50%;
+    align-items: center;
+    text-align: justify;
+    font-size: 16px;
+    padding: 5%; }
+  .sectiontwo {
+    display: flex;
+    flex-direction: row;
+    background-color: #ECECEC; }
+  .sectiontwo .section-title {
+    flex: 1 1 auto;
+    width: 40%;
+    align-self: center;
+    margin: 12%; }
+  .sectiontwo .bedroom {
+    flex: 1 1 auto;
+    width: 60%; }
+  .sectiontwo .sectiontext {
+    display: flex;
+    flex-direction: column;
+    flex: 1 1 auto;
+    width: 50%;
+    align-items: center;
+    text-align: justify;
+    font-size: 16px;
+    padding: 5%; }
+  .sectionthree {
+    display: flex;
+    flex-direction: row;
+    background-color: #ECECEC; }
+  .sectionthree .section-title {
+    flex: 1 1 auto;
+    width: 40%;
+    align-self: center;
+    margin: 12%; }
+  .sectionthree .kitchen {
+    flex: 1 1 auto;
+    width: 60%; }
+  .sectionthree .sectiontext {
+    display: flex;
+    flex-direction: column;
+    flex: 1 1 auto;
+    width: 50%;
+    align-items: center;
+    text-align: justify;
+    font-size: 16px;
+    padding: 5%; } }
