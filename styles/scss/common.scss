@@ -8,63 +8,62 @@
     .navbar {
         background-color: #E5E1C4;
         height: 5em;
-        padding: 0 5%;
+        padding: 0 16px;
     }
 
     footer {
         background-color: #ECECEC;
-        padding: 0 5%;
-    }
-
-    .logo-footer {
-        width: 180px;
-    }
-}
-
-@media screen and (min-width:576px) and (max-width:992px) {
-    .logo {
-        width: 180px;
-    }
-
-    .navbar {
-        background-color: #E5E1C4;
-        height: 5em;
-        padding: 0 5%;
-    }
-
-    footer {
-        background-color: #ECECEC;
-        padding: 0 5%;
+        padding: 0 16px;
     }
 
     .logo-footer {
         width: 180px;
     }
 
-}
+    @media screen and (min-width:576px) and (max-width:992px) {
+        .logo {
+            width: 180px;
+        }
 
-@media screen and (min-width: 992px) {
+        .navbar {
+            background-color: #E5E1C4;
+            height: 5em;
+            padding: 0 16px;
+        }
 
-    .logo {
-        width: 180px;
-    }
+        footer {
+            background-color: #ECECEC;
+            padding: 0 16px;
+        }
 
-    .navbar {
-        background-color: #E5E1C4;
-        height: 5em;
-        padding: 0 5%;
-        display: flex;
-        flex-direction: row;
-        align-items: center;
-        justify-content: space-between;
-    }
+        .logo-footer {
+            width: 180px;
+        }
 
-    footer {
-        background-color: #ECECEC;
-        padding: 0 5%;
-    }
+        @media screen and (min-width: 992px) {
 
-    .logo-footer {
-        width: 180px;
+            .logo {
+                width: 180px;
+            }
+
+            .navbar {
+                background-color: #E5E1C4;
+                height: 5em;
+                padding: 0 16px;
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+                justify-content: space-between;
+            }
+
+            footer {
+                background-color: #ECECEC;
+                padding: 0 16px;
+            }
+
+            .logo-footer {
+                width: 180px;
+            }
+        }
     }
 }
